@@ -5,26 +5,24 @@ header{padding: 15px;
 *{margin: 60;
     padding: 0;
     border: 60;}
-header div {text-align: center;}
+.links {text-align: center;}
 header div a {color: yellow;
     font-size: 15px;
     line-height: 30px;
     margin: 16px;
     text-decoration: none;
     font-family: fonte do header}
-header div a:hover {color: aqua;
-    transition: color 400ms;}
-#box {text-align: center;
-    padding: 32px;}
-#box img {border-radius: 50%;
-    border: 5px solid black;
-    margin-bottom: 32px;}
+header div a:hover {color: aqua; transition: color 400ms;}
+#box {text-align: center; padding: 32px;}
+#box img {border-radius: 50%; border: 5px solid black; margin-bottom: 32px;}
 #box h1 {padding: 2px; font-size: 20px}
 #box h2 {padding: 2px; font-size: 20px}
 #box h3 {padding: 2px; font-size: 20px}
 #box h4 {padding: 2px; font-size: 20px}
 #box h4:hover {font-size: 22px;}
-#box a:hover {color: green;
-    transition: 600ms;}
-div a {text-decoration: none;
-    color: rgb(156, 43, 156);}
+#box a:hover {color: green; transition: 600ms;}
+div a {text-decoration: none; color: rgb(156, 43, 156);}
+obm {text-align: center; padding: 2px; font-size: 20px;}
+obm a:hover {color: green; transition: 400ms; font-size: 22px;}
+obm a {text-decoration: none;}
+obm img {border-radius: 50%; border: 5px solid black; margin-bottom: 32px;}
