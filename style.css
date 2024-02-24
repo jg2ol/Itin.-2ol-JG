@@ -1,29 +1,29 @@
 body {background-color: #252525;}
-header{padding: 15px;
+header {padding: 15px;
     border-bottom: 2px solid yellow;
     background-color: purple;}
 *{margin: 60;
     padding: 0;
     border: 60;}
+div a {text-decoration: none; color: rgb(156, 43, 156);}
 .links {text-align: center;}
-header div a {color: yellow;
+.links a {color: yellow;
     font-size: 15px;
     line-height: 30px;
     margin: 16px;
-    text-decoration: none;
-    font-family: fonte do header}
-header div a:hover {color: aqua; transition: color 400ms;}
-#box {text-align: center; padding: 32px;}
-#box img {border-radius: 50%; border: 5px solid black; margin-bottom: 32px;}
-#box h1 {padding: 2px; font-size: 20px}
-#box h2 {padding: 2px; font-size: 20px}
-#box h3 {padding: 2px; font-size: 20px}
-#box h4 {padding: 2px; font-size: 20px}
-#box h4:hover {font-size: 22px;}
-#box a:hover {color: green; transition: 600ms;}
-div a {text-decoration: none; color: rgb(156, 43, 156);}
-obm {text-align: center; padding: 2px; font-size: 20px;}
-obm a:hover {color: green; transition: 400ms; font-size: 22px;}
-obm a {text-decoration: none;}
-obm img {border-radius: 50%; border: 5px solid black; margin-bottom: 32px;}
-@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap')
+    text-decoration: none;}
+.links a:hover {color: aqua; transition: color 400ms;}
+
+#google {text-align: center; padding: 32px;}
+#google img {border-radius: 50%; border: 5px solid black;}
+#google h1 {font-size: 20px;}
+#google h2 {font-size: 20px;}
+#google h3 {font-size: 20px;}
+#google h4 {font-size: 20px;}
+#google h4:hover {font-size: 22px;}
+#google a:hover {color: green; transition: 400ms;}
+
+#obm {text-align: center; font-size: 20px;}
+#obm a:hover {color: green; transition: 400ms; font-size: 15px;}
+#obm a {text-decoration: none;}
+#obm img {border-radius: 50%; border: 5px solid blue;}
