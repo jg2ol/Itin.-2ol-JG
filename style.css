@@ -5,25 +5,17 @@ header {padding: 15px;
 *{margin: 60;
     padding: 0;
     border: 60;}
-div a {text-decoration: none; color: rgb(156, 43, 156);}
-.links {text-align: center;}
-.links a {color: yellow;
-    font-size: 15px;
-    line-height: 30px;
-    margin: 16px;
-    text-decoration: none;}
+.links {text-decoration: none; color: rgb(156, 43, 156); text-align: center;}
+.links a {color: yellow; font-size: 15px; line-height: 30px; margin: 16px; text-decoration: none;}
 .links a:hover {color: aqua; transition: color 400ms;}
 
-#google {text-align: center; padding: 32px;}
-#google img {border-radius: 50%; border: 5px solid black;}
-#google h1 {font-size: 20px;}
-#google h2 {font-size: 20px;}
-#google h3 {font-size: 20px;}
-#google h4 {font-size: 20px;}
-#google h4:hover {font-size: 22px;}
-#google a:hover {color: green; transition: 400ms;}
+.chama {margin-left: 10px; list-style: none; float: left;}
+.chama li1, li2 {position: relative; float: left;}
 
-#obm {text-align: center; font-size: 20px;}
-#obm a:hover {color: green; transition: 400ms; font-size: 15px;}
-#obm a {text-decoration: none;}
-#obm img {border-radius: 50%; border: 5px solid blue;}
+.chama li1 img {border-radius: 50%; border: 5px solid cyan; margin: 20px 45px; height: 200px;}
+.chama li2 img {border-radius: 50%; border: 5px solid cyan; margin: 20px 45px; height: 200px;}
+
+.chama h1, h2 {width: 300px; font-size: 15px; text-align: center; color: pink; margin: 15px 0px;}
+.chama h3, h4, h5, h6 {width: 300px; font-size: 15px; text-align: center; color: royalblue; margin: 15px 0px;}
+.chama a:hover {color: green; font-size: 18px; transition: color 400ms;}
+.chama a {color: purple; text-decoration: none;}
