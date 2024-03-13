@@ -1,0 +1,39 @@
+body {background-color: #252525;}
+header {padding: 15px;
+    border-bottom: 2px solid yellow;
+    background-color: purple;}
+
+*{margin: 60; padding: 0; border: 60;}
+
+.links {text-decoration: none; color: rgb(156, 43, 156); text-align: center;}
+.links a {color: yellow; font-size: 15px; line-height: 30px; margin: 16px; text-decoration: none;}
+.links a:hover {color: aqua; transition: color 400ms;}
+
+.coluna1 {
+    display: inline-block;
+    width: 50%;
+}
+.coluna1 img {
+    border-radius: 50%;
+    border: solid 3px red;
+    width: 300px;
+    margin: 20px;
+}
+.coluna1 p {
+    width: 50%;
+    color: white;
+}
+
+.coluna2 {
+    display: inline;
+}
+.coluna2 img {
+    border-radius: 50%;
+    border: solid 3px red;
+    width: 300px;
+    margin: 20px;
+}
+.coluna2 p {
+    width: 50%;
+    color: white;   
+}
