@@ -1,39 +1,41 @@
 body {background-color: #252525;}
-header {padding: 15px;
+header {
+    padding: 15px;
     border-bottom: 2px solid yellow;
-    background-color: purple;}
+    background-color: purple;
+    width: 100%;
+}
+.chama {position: fixed; right: 10px; bottom: 10px;}
+.chama img {width: 30px;}
 
-*{margin: 60; padding: 0; border: 60;}
-
-.links {text-decoration: none; color: rgb(156, 43, 156); text-align: center;}
-.links a {color: yellow; font-size: 15px; line-height: 30px; margin: 16px; text-decoration: none;}
+.links {
+    text-decoration: none;
+    color: purple;
+    text-align: center;
+    height: 20px;
+}
+.links img {position: relative; top: 2.5px;}
+.links a {
+    color: yellow;
+    font-size: 15px;
+    text-decoration: none;
+    margin-right: 20px;
+    margin-left: 5px;
+}
 .links a:hover {color: aqua; transition: color 400ms;}
+
+h1 {color: white;}
 
 .coluna1 {
     display: inline-block;
-    width: 50%;
+    width: 47%;
+    margin-left: 15px;
 }
-.coluna1 img {
-    border-radius: 50%;
-    border: solid 3px red;
-    width: 300px;
-    margin: 20px;
-}
-.coluna1 p {
-    width: 50%;
-    color: white;
-}
+.coluna1 p {color: white;}
 
 .coluna2 {
-    display: inline;
+    display: inline-block;
+    width: 47%;
+    margin-left: 10px;
 }
-.coluna2 img {
-    border-radius: 50%;
-    border: solid 3px red;
-    width: 300px;
-    margin: 20px;
-}
-.coluna2 p {
-    width: 50%;
-    color: white;   
-}
+.coluna2 p {color: white;}
