@@ -1,4 +1,5 @@
-body {background-color: #252525;}
+body {background-color: #252525; overflow-x: hidden;}
+
 header {
     padding: 15px;
     border-bottom: 2px solid yellow;
@@ -22,15 +23,75 @@ header {
     margin-right: 20px;
     margin-left: 5px;
 }
-.links a:hover {color: aqua; transition: color 400ms;}
+.links a:hover {color: aqua; transition: 500ms;}
 
 
-h1 {color: white; text-align: center; width: 100%; border-bottom: 2px solid yellow; padding-bottom: 20px;}
-section {color: white; float: left; width: 47%; margin-left: 10px;}
-section a {text-decoration: none; color: yellow; font-style: italic; font-size: small;}
+h1 {
+    color: white;
+    text-align: center;
+    width: 100%;
+    border-bottom: 2px solid rgb(151, 104, 151);
+    padding-bottom: 20px;
+}
+h1 p {font-size: 25px; border-top: solid 2px yellow; padding-top: 25px; margin-bottom: 15px;}
+h1 p img {cursor: text; width: 28px; position: relative; top: 5px;}
+
+
+section {
+    color: white;
+    width: 49%;
+    margin-left: 10px;
+}
+section a {
+    text-decoration: none;
+    color: yellow;
+    font-style: italic;
+    font-size: small;
+}
 section a:hover {color: cyan; font-size: 15px;}
-section h2 img:hover {cursor: text;}
-section h4 {margin-left: 20px;}
+section h4 {margin-left: 20px; color: rgb(179, 179, 179);}
 section p {margin-left: 35px; margin-bottom: 50px;}
-section h2 img {width: 28px; position: relative; top: 5px;}
-.coluna1 {border-right: solid 1.5px yellow;}
+
+.ol_mat {display: inline-block;}
+#matematica1 {border-right: solid 2px rgb(151, 104, 151);}
+#matematica2 {position: relative; top: -125px;}
+
+h2 {
+    color: white;
+    text-align: center;
+    width: 100%;
+    border-top: solid 2px rgb(151, 104, 151);
+    border-bottom: solid 2px rgb(151, 104, 151);
+    padding-bottom: 20px;
+}
+h2 img {
+    cursor: text;
+    padding: 0;
+    margin-top: 8.5px;
+    width: 28px;
+    position: relative;
+    top: 5px;
+}
+
+
+
+
+footer {
+    margin: 0;
+    padding: 10px 0px;
+    background: purple;
+    color: white;
+    border-top: solid 2px yellow;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+footer a {
+    color: yellow;
+    text-decoration: none;
+}
+footer a:hover {
+    transition: 500ms;
+    color: cyan;
+}
