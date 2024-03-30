@@ -1,10 +1,10 @@
-body {background-color: #252525; overflow-x: hidden;}
+body {background-color: #252525; overflow-x: hidden; width: 99%;}
 
 header {
     padding: 15px;
     border-bottom: 2px solid yellow;
     background-color: purple;
-    width: 100%;
+    width: 99%;
 }
 .un {position: fixed; right: 10px; bottom: 10px;}
 .un img {width: 30px;}
@@ -30,13 +30,31 @@ h1 {
     color: white;
     text-align: center;
     width: 100%;
-    border-bottom: 2px solid rgb(151, 104, 151);
+    border-bottom: 2px solid yellow;
     padding-bottom: 20px;
+    margin-bottom: 0px;
 }
-h1 p {font-size: 25px; border-top: solid 2px yellow; padding-top: 25px; margin-bottom: 15px;}
-h1 p img {cursor: text; width: 28px; position: relative; top: 5px;}
+h2 {
+    color: white;
+    text-align: center;
+    width: 100%;
+    border-top: solid 2px rgb(151, 104, 151);
+    border-bottom: solid 2px rgb(151, 104, 151);
+    padding-bottom: 20px;
+    margin-top: 0px;
+}
+h2 img {
+    cursor: text;
+    padding: 0;
+    margin-top: 8.5px;
+    width: 28px;
+    position: relative;
+    top: 5px;
+}
+#mat_text {margin: 0px; border-top: none;}
 
 
+.niveis {text-align: center;}
 section {
     color: white;
     width: 49%;
@@ -52,27 +70,9 @@ section a:hover {color: cyan; font-size: 15px;}
 section h4 {margin-left: 20px; color: rgb(179, 179, 179);}
 section p {margin-left: 35px; margin-bottom: 50px;}
 
-.ol_mat {display: inline-block;}
-#matematica1 {border-right: solid 2px rgb(151, 104, 151);}
-#matematica2 {position: relative; top: -125px;}
 
-h2 {
-    color: white;
-    text-align: center;
-    width: 100%;
-    border-top: solid 2px rgb(151, 104, 151);
-    border-bottom: solid 2px rgb(151, 104, 151);
-    padding-bottom: 20px;
-}
-h2 img {
-    cursor: text;
-    padding: 0;
-    margin-top: 8.5px;
-    width: 28px;
-    position: relative;
-    top: 5px;
-}
-
+.olimpiadas {width: 100%; display: flex;}
+#mat_nivel1, #mat_nivel2, #mat_nivel3 {border-right: solid 2px rgb(151, 104, 151);}
 
 
 
