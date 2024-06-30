@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');  /* font-family: "Orbitron" */
+
+*{margin: 0}
+
+body {
+    background: #252525;
+    font-family: Orbitron;
+    color: white;
+}
+
+h1 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+div#record_score {
+    margin: 10px 5px;
+    display: flex;
+    justify-content: space-between;
+}
+div#record_score div.pontuacao {
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+div#record_score div#record {
+    background: rgb(207, 29, 29);
+}
+div#record_score div#score {
+    background: rgb(7, 148, 7);
+}
+
+section#pergunta {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+section#pergunta p {
+    background: white;
+    color: black;
+    padding: 20px;
+    width: 450px; height: 60px;
+    border-radius: 8px;
+}
+
+section#resposta {
+    width: 450px;
+}
+section#resposta div#res_dic {
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+section#resposta div#res_dic p#dica:hover {color: yellow; transition: 700ms; cursor: pointer;}
+section#resposta input {
+    width: 300px; height: 25px;
+    border-radius: 8px;
+    border: none;
+}
